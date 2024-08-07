@@ -1,0 +1,91 @@
+/*Screens max-width: 480px*/
+@media (max-width: 375px) {
+  .background {
+    background-size: 400px 250px;
+    background-size: 2000px 950px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .nav-bar {
+    width: 360px;
+    height: 20px;
+    padding: 10px;
+    background-color: #121212;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0px;
+    display: block;
+    word-spacing: 10px;
+  }
+
+  a {
+    color: #f5f5dc;
+    text-decoration: none;
+    line-height: 10px;
+    font-size: 10px;
+  }
+
+  h1 {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+
+  h2 {
+    margin-top: 0;
+    font-size: 20px;
+  }
+
+  .text,
+  p {
+    font-size: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: absolute;
+  }
+
+  .home {
+    margin-bottom: 100px;
+  }
+
+  .about-me {
+    background-color: #121212;
+    width: 400px;
+    height: 2000px;
+    margin-top: 0;
+  }
+
+  .about-me > h2 {
+    padding-top: 25px;
+  }
+
+  .container-about-me {
+    display: block;
+    margin-left: 40px;
+    margin-right: 100px;
+    scroll-margin: 0;
+  }
+
+  .item-about-me > img {
+    width: 300px;
+    height: 500px;
+  }
+
+  .about-me > p {
+    margin-top: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+  }
+
+  .paragraph {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 350px;
+    margin-right: 350px;
+  }
+}

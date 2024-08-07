@@ -1,0 +1,17 @@
+html {
+  background-color: #2d2f32;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+header {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+img {
+  align-content: center;
+}

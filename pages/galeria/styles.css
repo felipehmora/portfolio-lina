@@ -1,0 +1,35 @@
+html {
+  background-color: #2d2f32;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 400px 400px 400px;
+  grid-template-columns: 500px 500px 500px;
+  gap: 1px;
+}
+
+.item {
+  justify-self: center;
+}
+
+.piano {
+  width: 500px;
+  height: 350px;
+}
+
+.piano2 {
+  width: 500px;
+  height: 355px;
+}
+
+.piano3 {
+  width: 500px;
+  height: 355px;
+}
