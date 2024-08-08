@@ -1,8 +1,12 @@
 /*Screens max-width: 480px*/
 @media (max-width: 375px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
   .background {
     background-size: 400px 250px;
-    background-size: 2000px 950px;
     top: 0;
     left: 0;
     right: 0;
@@ -10,7 +14,7 @@
   }
 
   .nav-bar {
-    width: 360px;
+    width: 380px;
     height: 20px;
     padding: 10px;
     background-color: #121212;
@@ -32,18 +36,20 @@
 
   h1 {
     margin-top: 20px;
+    margin-left: 35px;
     font-size: 30px;
   }
 
   h2 {
     margin-top: 0;
+    margin-left: 35px;
     font-size: 20px;
   }
 
   .text,
   p {
     font-size: 10px;
-    margin-left: 10px;
+    margin-left: 45px;
     margin-right: 10px;
     position: absolute;
   }
@@ -55,7 +61,7 @@
   .about-me {
     background-color: #121212;
     width: 400px;
-    height: 2000px;
+    height: 1900px;
     margin-top: 0;
   }
 
@@ -73,6 +79,7 @@
   .item-about-me > img {
     width: 300px;
     height: 500px;
+    margin-left: 25px;
   }
 
   .about-me > p {
@@ -83,9 +90,58 @@
   }
 
   .paragraph {
-    font-size: 30px;
-    margin-top: 0px;
-    margin-left: 350px;
-    margin-right: 350px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 0px;
+    position: absolute;
+  }
+
+  .testimonials {
+    height: 700px;
+    width: 400px;
+    background-color: #f5f5dc;
+  }
+
+  .testimonials-title {
+    color: #121212;
+    margin-top: 0;
+    padding-top: 100px;
+  }
+
+  .testimonials-container {
+    display: block;
+    /*grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 5px 5px 5px;*/
+    margin-left: 200px;
+    margin-top: 10px;
+    gap: 50px;
+    align-items: center;
+  }
+
+  .testimonials-items {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40%;
+  }
+
+  .testimonials-profiles {
+    width: 100px;
+    height: 100px;
+  }
+
+  .testimonials-text {
+    font-size: 15px;
+    color: #121212;
+    justify-content: center;
+    margin-top: 45px;
+  }
+
+  .quotation-mark {
+    color: #151515;
+    opacity: 10%;
   }
 }
